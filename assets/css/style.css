@@ -1,0 +1,180 @@
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.alert-container {
+}
+
+.callout-container {
+  height: 100vh;
+  background: url(../img/whiskey-drop-callout-bg.jpg) center center/cover
+    no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.quotes-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.features-container {
+  background: #f05f40;
+  color: #fff;
+}
+
+.monthlyfavourites-container {
+}
+
+hr {
+  width: 120px;
+  height: 5px;
+}
+
+.secondary-divider {
+  width: 60px;
+  background: #212529;
+}
+
+.features .secondary-divider {
+  background: #fff;
+}
+
+.opaque-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* Buttons */
+
+.btn-light,
+.btn--cta,
+.btn--nav {
+  border-radius: 23px;
+}
+
+.btn--cta,
+.btn--nav {
+  width: 160px;
+  font-weight: bold;
+}
+
+.btn--nav {
+  width: 170px;
+}
+
+.btn-light {
+  color: #f05f40;
+}
+
+/* Navbar */
+
+.bg--transparent {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  padding: 3px 0 7px;
+}
+
+.navbar-toggler {
+  border: 0;
+}
+
+.navbar-text {
+  padding: 0 0 6px;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+/* Alert */
+
+.site-wide-alert {
+  background: #ebb92175;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background: transparent;
+}
+
+.jumbotron-header {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+  color: #a7a7a7;
+  margin: 25px 0;
+}
+
+s,
+.jumbotron .lead strong {
+  color: #c19a26;
+  font-weight: bold;
+}
+
+.jumbotron small {
+  font: italic 60% Montserrat, sans-serif;
+  color: #d0d0d0;
+}
+
+/* Quotes */
+
+.name {
+  font-size: 80%;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 120%;
+}
+
+/* Features */
+
+.badge {
+  border-radius: 20px;
+  font-size: 60%;
+}
+
+.icon {
+  font-size: 200%;
+}
+
+/* Media Queries */
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .lead {
+    font-size: 1.5rem;
+  }
+  .jumbotron small {
+    font-size: 80%;
+  }
+  .feature-padding {
+    padding-bottom: 33px;
+  }
+}
+
+@media (min-width: 992px) {
+  .name {
+      font-size: 90%;
+  }
+}
