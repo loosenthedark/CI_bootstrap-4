@@ -11,7 +11,7 @@ h2 {
 
 .callout-container {
   height: 100vh;
-  min-height: 1000px;
+  min-height: 850px;
   background: url(../img/whiskey-drop-callout-bg.jpg) center center/cover
     no-repeat;
   display: flex;
